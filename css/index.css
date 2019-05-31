@@ -54,6 +54,7 @@ table {
 html, body {
     height: 100%;
     font-family: 'Roboto', sans-serif;
+    font-weight: bold;
 }
 
 h1, h2, h3, h4, h5 {
@@ -71,6 +72,38 @@ p {
     margin: 0 auto;
 }
 
+.nav {
+    margin-top: 15px;
+    margin-bottom: 25px;
+    display: flex;
+    justify-content: space-between;
+    padding: 4px;
+    
+}
+
+.nav .logo {
+}
+
+.nav a:hover {
+    background-color: black;
+    color: white;
+}
+.nav a {
+    display: flex;
+    flex-direction: column-reverse;
+    text-decoration: none;
+    color: black;
+
+}
+
+.hero-image {
+    margin-bottom: 20px;
+}
+
+.hero-image-about {
+    margin-bottom: 20px;
+}
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -85,9 +118,33 @@ p {
     padding-bottom: 20px;  
 }
 
+.top-content .text-container-about {
+    width: 98%;
+    padding: 0 1%;
+    padding-bottom: 20px;  
+}
+
 .middle-content {
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
+}
+
+.middle-content-about {
+    display: flex;
+    flex-wrap: wrap;
+    width: 99%;
+    padding: 0 1%;
+    
+}
+
+.middle-content-about .about-cards {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 45%;
+    margin: 2.5%;
+    padding-bottom: 15px;
+    border-bottom: 1px dotted black;
 }
 
 .middle-content h2 {
@@ -112,6 +169,96 @@ p {
     justify-content: center;
 }
 
+.box1 {
+    background: teal;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box2 {
+    background: gold;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box3 {
+    background: cadetblue;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box4 {
+    background: coral;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box5 {
+    background: crimson;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box6 {
+    background: forestgreen;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box7 {
+    background: darkorchid;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box8 {
+    background: hotpink;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box9 {
+    background: indigo;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box10 {
+    background:dodgerblue;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -124,6 +271,35 @@ p {
 
 .bottom-content .text-container:last-child {
     padding-right: 0;
+}
+
+.bottom-content-about {
+    width: 98%;
+    padding: 4%;
+    padding-bottom: 20px;  
+}
+
+button {
+    background-color: white;
+    width: 25%;
+    border: 2px solid black;
+    border-radius: 8px;
+    height: 40px;
+    width: 135px;
+    font-weight: bold;
+    font-size: 103%;
+}
+
+.top-content-products {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: space-around;
+}
+.hero-image-products {
+    display: flex;
+    width: 100%;
+    
 }
 
 footer {
