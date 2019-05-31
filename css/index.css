@@ -72,7 +72,6 @@ p {
     margin: 0 auto;
 }
 
-
 .nav {
     margin-top: 15px;
     margin-bottom: 25px;
@@ -81,7 +80,6 @@ p {
 }
 
 .nav .logo {
-    
 }
 
 .nav a {
@@ -254,14 +252,11 @@ p {
     align-items: center;
 }
 
-
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
     justify-content: space-around;
 }
-
-
 
 .bottom-content .text-container {
     padding-right: 4%;
@@ -286,6 +281,18 @@ button {
     width: 135px;
     font-weight: bold;
     font-size: 103%;
+}
+
+.top-content-products {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: space-around;
+}
+.hero-image-products {
+    display: flex;
+    width: 100%;
+    
 }
 
 footer {
