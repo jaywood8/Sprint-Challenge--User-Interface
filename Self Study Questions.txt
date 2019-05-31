@@ -1,0 +1,19 @@
+Sprint Challenge Self Study Questions 
+5/31/2019
+Jay Wood
+
+1. If you were to describe semantic HTML to the next cohort of students, what would you say?
+Semantic HTML refers to tags that describe their function. For example, "button" explains what that tag does: it formats and treats the following code as a clickable button on a page/within an application. Other words, such as "div," don't offer the same level of specificity and meaninfulness. 
+
+2. Name two big differences between display: block; and display: inline;.
+Display block with stretch that item across the screen, and force all subsequent content on to the next line. Display: inline will put items next to each other on the same line without spacing between them. 
+
+3. What are the 4 areas of the box model?
+From the outside in: margin, border, padding, content.
+
+4. While using flexbox, what axis does the following property work on: align-items: center?
+Cross axis. 
+
+5. Explain why git is valuable to a team of developers.
+Git offers huge value by allowing for version control. Developers can work on the same project simulataneously, instead of waiting on one person to fix the nav bar, then passing it to another person to update images/content, etc. Those developers can then merge their work back on to a master file. Additionally, because git saves the project throughout the development process, it provides a means of reverting to older versions in case something were to get drastically messed up. Git provides a safeguard. 
+
