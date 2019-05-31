@@ -75,21 +75,26 @@ p {
 .nav {
     margin-top: 15px;
     margin-bottom: 25px;
-    border: 1px solid black;
     display: flex;
-    justify-content: space-between;  
-    align-content: flex-end;
+    justify-content: space-between;
 }
 
 .nav .logo {
-    border: 1px solid black;
+    
 }
 
 .nav a {
-    border: 1px solid black;
+    display: flex;
+    flex-direction: column-reverse;
+    text-decoration: none;
+    color: black;
 }
 
 .hero-image {
+    margin-bottom: 20px;
+}
+
+.hero-image-about {
     margin-bottom: 20px;
 }
 
@@ -133,6 +138,97 @@ p {
     align-items: center;
     justify-content: center;
 }
+
+.box1 {
+    background: teal;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box2 {
+    background: gold;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box3 {
+    background: cadetblue;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box4 {
+    background: coral;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box5 {
+    background: crimson;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box6 {
+    background: forestgreen;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box7 {
+    background: darkorchid;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box8 {
+    background: hotpink;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box9 {
+    background: indigo;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box10 {
+    background:dodgerblue;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 
 .bottom-content {
     display: flex;
