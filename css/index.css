@@ -77,16 +77,23 @@ p {
     margin-bottom: 25px;
     display: flex;
     justify-content: space-between;
+    padding: 4px;
+    
 }
 
 .nav .logo {
 }
 
+.nav a:hover {
+    background-color: black;
+    color: white;
+}
 .nav a {
     display: flex;
     flex-direction: column-reverse;
     text-decoration: none;
     color: black;
+
 }
 
 .hero-image {
